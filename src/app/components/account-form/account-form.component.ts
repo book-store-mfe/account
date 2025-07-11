@@ -1,11 +1,8 @@
-import { loadRemoteModule } from '@angular-architects/module-federation';
-import { Component, inject, WritableSignal } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { environment } from '../../../environments/environment';
 import { ProfileStateService } from '@bookstore-app/shared-lib';
-
 
 @Component({
   selector: 'app-account-form',

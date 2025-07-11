@@ -6,12 +6,13 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     './AccountForm': './src/app/components/account-form/account-form.component.ts',
+    './LoginComponent': './src/app/components/login/login.component.ts',
     './routes': './src/app/app.routes.ts',
-    "./ProfileState": './src/app/profile-state.ts',
   },
 
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
+    "@bookstore-app/shared-lib": { singleton: true, strictVersion: false, requiredVersion: '~0.0.1' }
   },
 
 });

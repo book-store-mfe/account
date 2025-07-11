@@ -1,0 +1,29 @@
+.content {
+  padding: 10px;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width: 350px;
+  margin: 0 auto;
+
+  &__rows {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__row {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
+
+.width-100 {
+  width: 100%;
+}
