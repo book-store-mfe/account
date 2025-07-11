@@ -1,0 +1,1 @@
+(self.webpackChunkaccount=self.webpackChunkaccount||[]).push([[195],{195:(e,n,a)=>{a.r(n),a.d(n,{ProfileState:()=>o});var l=a(2950);const o={name:(0,l.signal)("Jeferson Belmiro"),email:(0,l.signal)("jeferson.belmiro@gmail.com")}}}]);

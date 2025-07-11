@@ -1,0 +1,1 @@
+(self.webpackChunkaccount=self.webpackChunkaccount||[]).push([[181],{2181:(h,o,n)=>{n.r(o),n.d(o,{routes:()=>t});const t=[{path:"",loadComponent:()=>n.e(603).then(n.bind(n,6603)).then(u=>u.AccountFormComponent)}]}}]);
