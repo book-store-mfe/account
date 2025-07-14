@@ -1,6 +1,7 @@
 {
   "name": "account",
   "version": "0.0.0",
+  "id": "eecde16f39d3c6d9fbaa15efa8cd11b04ab8bf2a",
   "remotes": {},
   "dependencies": {
     "@angular-architects/module-federation": {
